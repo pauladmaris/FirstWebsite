@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html>
+<title>Travel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+
+<style>
+div1 {
+  background-color: lightgrey;
+  width: 100px;
+  border: 15px solid black;
+  padding: 20px;
+  margin: 10px;
+}
+</style>
+
+<style>
+
+p.four {
+  border-style: dotted;
+  border-width: thick;
+}
+</style>
+
+<style>
+a:link {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px black;
+  font-family: monospace;
+}
+a:visited {
+  color: pink;
+  text-shadow: 2px 2px 5px black;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: monospace;
+}
+a:hover {
+  text-shadow: 2px 2px 5px black;
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+  font-family: monospace;
+}
+a:active {
+  text-shadow: 2px 2px 5px black;
+  color: gray;
+  font-family: monospace;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+
+<style>
+div.b {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+</style>
+
+
+<style>
+.container {
+  position: relative;
+  width: 60%;
+  height: auto;
+  text-align: center;
+  font-size: 28px;
+  color: black;
+  font-family:courier;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-block {
+  background-image: url(123.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: courier;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  block-size:auto;
+}
+</style>
+
+<style>
+#myImg1 {
+  border: 5px dashed #531;
+}
+
+</style>
+
+<style>
+#myImg {
+  width:55px;
+  height:26px;
+ 
+}
+</style>
+
+<style>
+        @charset "utf-8";
+ 
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+ 
+body 
+{
+  /* Location of the image */
+  background-image: url(19.jpg);
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container
+{
+    max-width:960px;
+    margin-left:auto;
+    margin-right:auto;
+    background: url(4.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    border-radius:10px;  
+}
+header
+{
+    width:960px;
+    font-size:35px;
+    text-align:center;
+    background-color:#222;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    color:white;    
+}
+footer
+{
+    height: 40px;
+    font-size:35px;
+    color:white;
+    text-align:center;
+    background-color:#222;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    clear:both;  
+}
+#content
+{
+    max-width:960px; 
+    margin-left:auto;
+    margin-right:auto;  
+}
+#content ul
+{
+    list-style-type:none;
+}
+#content li
+{
+    float:left;
+    width:175px;
+    display:block;
+    margin-right:35px;
+    margin-bottom:50px;   
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden; 
+}
+img{
+    width:200px;
+    height:150px;
+}
+
+</style>
+
+
+
+<style>
+
+p.ex1 {
+  margin: 35px;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a1 {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 4px;
+}
+
+.topnav a:hover {
+  background-color: #000;
+  
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.navbar logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+  
+}
+
+
+</style>
+
+<style>
+div.gallery {
+  border: 1px solid #ccc; 
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%; 
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px; 
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
+<style>
+div.a {
+  text-align: center;
+}
+</style>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.image1 {
+  display: block;
+  width: 70%;
+  height: auto;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: powderblue;
+  color: white;
+  font-size: 15px;
+  padding: 23px 32px;
+}
+</style>
+
+
+<body>
+<style>
+div.a {
+  font-size: 15px;
+  font-family:courier;
+}
+</style>
+
+<style>
+div.a1 {
+  font-size: 25px;
+  font-family:courier;
+}
+</style>
+
+<div class="topnav">
+  
+  <a><img id="myImg" src="logo1.png" alt=""/></a>
+     <a href="index.html" style="font-size:1.9vw;"><i class="fa fa-fw fa-home"></i> Home </a>
+     <a href="CookRo.html" style="font-size:1.9vw;"><i class="fa fa-birthday-cake"></i> Cook</a>
+     <a class="active"href="Travel.html" style="font-size:1.9vw;"><i class="fa fa-heartbeat"></i> Travel </a>
+     <a href="LoveRo.html" style="font-size:1.9vw;"><i class="fa fa-globe"></i> Love</a> 
+     <a href="HelpRo.html" style="font-size:1.9vw;"><i class="fa fa-map-signs"></i> Help </a> 
+     <a href="ContactRo.html"style="font-size:1.9vw;"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+     <div class="topnav-right"> <div class="a">
+        <a class="active" href="Travel.html" style="font-size:1.5vw;"><i class="fa fa-flag"></i> En </a>
+        <a href="TravelRo.html" style="font-size:1.5vw;"><i class="fa fa-flag"></i> Ro </a>
+        </div></div>
+  
+</div>
+
+
+<style>
+div.d {
+  text-decoration-line: overline underline;
+  text-decoration-style: wavy;
+}
+</style>
+
+<style>
+h1 {
+  text-shadow: 2px 2px 5px gray;
+  color: black;
+  font-size: 25px;
+  padding: 23px 32px;
+}
+</style>
+
+<style>
+h2 {
+  text-shadow: 2px 2px 5px gray;
+  color: black;
+  font-size: 20px;
+  padding: 23px 32px;
+}
+</style>
+
+<style>
+h3 {
+  text-shadow: 2px 2px 5px gray;
+  color: white;
+  font-size: 25px;
+  padding: 23px 32px;
+}
+</style>
+
+<style>
+h4 {
+  font-size:20px;
+  text-aling:left;
+  margin-left: 30px;
+  margin-right:55px;
+  font-family: "Palatino Linotype";
+}
+</style>
+
+<style>
+p2 {
+  font-size:20px;
+  text-aling:left;
+  margin-left: 30px;
+  margin-right:55px;
+  font-family: "Palatino Linotype";
+}
+</style>
+
+<style>
+p1 {
+  font-size:20px;
+  text-aling:left;
+  margin-left: 30px;
+  margin-right:55px;
+  font-family: "Palatino Linotype";
+}
+</style>
+
+<style>
+p3 {
+  font-size:20px;
+  font-family: "DejaVu Sans Mono";
+}
+</style>
+
+
+<div class="a">
+<p style="font-size:53px">&#128506;</p>
+<h1 style="font-family:courier; font-size:5vw;">&#10084 Travel gallery &#10084</h1>
+<p style="font-size:58px">&#128745;</p>
+</div>
+
+
+<div id="container">
+        <div id="content">
+          <footer></footer>
+            <ul>
+                <li><a href="paris.jpg" rel="group" class="fancybox"><img src="paris.jpg" /></a></li>
+                <li><a href="oradea.jpg" rel="group" class="fancybox"><img src="oradea.jpg" /></a></li>
+                <li><a href="london.jpg" rel="group" class="fancybox"><img src="london.jpg" /></a></li>
+                <li><a href="deva.jpg" rel="group" class="fancybox"><img src="deva.jpg" /></a></li>
+                <li><a href="lille.jpg" rel="group" class="fancybox"><img src="lille.jpg" /></a></li>
+                <li><a href="babele.jpg" rel="group" class="fancybox"><img src="babele.jpg" /></a></li>
+                <li><a href="mare2.jpg" rel="group" class="fancybox"><img src="mare2.jpg" /></a></li>
+                <li><a href="ista.jpg" rel="group" class="fancybox"><img src="ista.jpg" /></a></li>
+                <li><a href="lac.jpg" rel="group" class="fancybox"><img src="lac.jpg" /></a></li>
+                <li><a href="poland2.jpg" rel="group" class="fancybox"><img src="poland2.jpg" /></a></li>
+                <li><a href="balea.jpg" rel="group" class="fancybox"><img src="balea.jpg" /></a></li>
+                <li><a href="paris2.jpg" rel="group" class="fancybox"><img src="paris2.jpg" /></a></li>
+                <li><a href="skopje.jpg" rel="group" class="fancybox"><img src="skopje.jpg" /></a></li>
+                <li><a href="rasarit.jpg" rel="group" class="fancybox"><img src="rasarit.jpg" /></a></li>
+                <li><a href="london2.jpg" rel="group" class="fancybox"><img src="london2.jpg" /></a></li>
+                <li><a href="skopje2.jpg" rel="group" class="fancybox"><img src="skopje2.jpg" /></a></li>
+                <li><a href="ista22.jpg" rel="group" class="fancybox"><img src="ista22.jpg" /></a></li>
+                <li><a href="budapest2.jpg" rel="group" class="fancybox"><img src="budapest2.jpg" /></a></li>
+                <li><a href="balea2.jpg" rel="group" class="fancybox"><img src="balea2.jpg" /></a></li>
+                <li><a href="budapest.jpg" rel="group" class="fancybox"><img src="budapest.jpg" /></a></li>
+		<li><a href="mare.jpeg" rel="group" class="fancybox"><img src="mare.jpeg" /></a></li>
+                <li><a href="artificii2.jpg" rel="group" class="fancybox"><img src="artificii2.jpg" /></a></li>
+            </ul>
+            <footer></footer>
+        </div>
+    </div>
+
+
+<br>
+
+<div class="b">
+  <div class="a">
+     <h2 style="font-family:courier; font-size:4vw;">Travel Tips: </h2>
+  </div>
+</div>
+
+
+
+<a1 id="menu">
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="visit2.jpg">
+    <div class="container">
+      <img src="visit2.jpg" alt="First one" class="image" style="width:100%">
+          <div class="centered">
+             <div class="text-block"><h3 style="font-family:papyrus; font-size:3vw;"><a href="#visit" style="color:white; text-decoration:none; font-family:papyrus;">Visit</a></h3></div>
+          </div>  
+    </div>
+    </a>   
+  </div>
+</div>
+</a1>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="food2.jpg">
+    <div class="container">
+      <img src="food2.jpg" alt="First one" class="image" style="width:100%">
+          <div class="centered">
+             <div class="text-block"><h3 style="font-family:papyrus; font-size:3vw;"><a href="#food" style="color:white; text-decoration:none; font-family:papyrus;">Food</a></h3></div>
+          </div>   
+    </div>
+    </a> 
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="home2.jpg">
+    <div class="container">
+      <img src="home2.jpg" alt="First one" class="image" style="width:100%">
+        <div class="centered">
+           <div class="text-block"><h3 style="font-family:papyrus; font-size:3vw;"><a href="#hotel" style="color:white; text-decoration:none; font-family:papyrus;">Hotel</a></h3></div>
+        </div>    
+    </div>
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="tr2.jpg">
+    <div class="container">
+      <img src="tr2.jpg" alt="First one" class="image" style="width:100%">
+          <div class="centered">
+             <div class="text-block"><h3 style="font-family:papyrus; font-size:3vw;"><a href="#transport" style="color:white; text-decoration:none; font-family:papyrus;">Transport</a></h3></div>
+          </div>  
+    </div>
+    </a>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<br><br>
+
+
+<div class="container">
+    <img id="myImg1" src="135.jpg" alt="" class="image1" style="width:100%">
+         
+</div>
+
+<br><br>
+
+<a1 id="visit">
+
+<div class="container">
+    <img src="visit222.jpg" alt="Visit" class="image" style="width:100%">
+       <div class="centered">
+          <div class="text-block"><a href="#menu"><h3 style="font-family:papyrus; font-size:3vw;">Visit</h3></a></div>
+       </div>   
+</div>
+</a1>
+<br>
+
+<p2> The most important thing on a trip is to travel a lot. Doesn't matter how much money do you have, you can fall in love with the city anyway.
+That's why the best way to do this is to make a list with all of the places you want to visit, then search for their program (<strong> tips:</strong>
+some of them require appointments even though they have free entrance).</p2>
+<br>
+
+
+<p2>Below are a couple of links to MUST VISIT places where you can find their program, fees, location etc. </p2>
+
+
+<br> <br> <br>
+<p3 style="font-size:6.5vw">B</p3>
+<p style="font-size:3vw"><a href="http://www.sultanahmetcamii.org/" target="_blank">&#8277; Blue Mosque -> Istanbul</a></p>
+<p style="font-size:3vw"><a href="https://buckinghampalace.co.uk/" target="_blank">&#8277; Buckingham Palace -> London</a></p>
+<p style="font-size:3vw"><a href="https://www.britishmuseum.org/" target="_blank">&#8277; British Museum -> London</a></p>
+
+<br> <br>
+<p3 style="font-size:6.5vw">C</p3>
+<p style="font-size:3vw"><a href="https://youtu.be/KlS_ZUuttPU/" target="_blank">&#8277; Cappadocia </a></p>
+<p style="font-size:3vw"><a href="https://colosseum.tickets/" target="_blank">&#8277; Colosseum -> Rome</a></p>
+
+<br> <br>
+<p3 style="font-size:6.5vw">D</p3>
+<p style="font-size:3vw"><a href="https://www.disneylandparis.com/en-int/?country=RO" target="_blank">&#8277; Disneyland Paris </a></p>
+<p style="font-size:3vw"><a href="https://www.millisaraylar.gov.tr/saraylar/dolmabahce-sarayi" target="_blank">&#8277; Dolmabahce Palace -> Istanbul </a></p>
+
+<br> <br>
+<p3 style="font-size:6.5vw">G</p3>
+<p style="font-size:3vw"><a href="http://www.galatakulesi.org/" target="_blank">&#8277; Galata Tower -> Istanbul</a></p>
+<p style="font-size:3vw"><a href="https://youtu.be/7o5o8rrt3DE" target="_blank">&#8277; Grand Bazaar -> Istanbul</a></p>
+
+<br> <br>
+<p3 style="font-size:6.5vw">L</p3>
+<p style="font-size:3vw"><a href="https://www.louvre.fr/en/homepage" target="_blank">&#8277; Louvre -> Paris</a></p>
+
+
+<br> <br>
+<p3 style="font-size:6.5vw">N</p3>
+<p style="font-size:3vw"><a href="https://www.notredamedeparis.fr/" target="_blank">&#8277; Notre Dame -> Paris</a></p>
+
+<br> <br>
+<p3 style="font-size:6.5vw">R</p3>
+<p style="font-size:3vw"><a href="https://youtu.be/JA4sYkaM8lA" target="_blank">&#8277; Rumeli Feneri</a></p>
+
+<br> <br>
+<p3 style="font-size:6.5vw">S</p3>
+<p style="font-size:3vw"><a href="http://www.sacre-coeur-montmartre.com/" target="_blank">&#8277; Sacre Coeur -> Paris</a></p>
+<p style="font-size:3vw"><a href="https://skygarden.london/" target="_blank">&#8277; Sky Garden -> London</a></p>
+<p style="font-size:3vw"><a href="https://www.southend.gov.uk/pier" target="_blank">&#8277; Southend on Sea Pier -> Southend on Sea</a></p>
+
+<br> <br>
+<p3 style="font-size:6.5vw">T</p3>
+<p style="font-size:3vw"><a href="https://www.the-shard.com/" target="_blank">&#8277; The Shard -> London</a></p>
+<p style="font-size:3vw"><a href="https://www.millisaraylar.gov.tr/en" target="_blank">&#8277; Topkapi Palace -> Istanbul</a></p>
+<p style="font-size:3vw"><a href="https://www.toureiffel.paris/en" target="_blank">&#8277; Tour Eiffel  -> Paris </a></p>
+<p style="font-size:3vw"><a href="https://www.towerbridge.org.uk/" target="_blank">&#8277; Tower Bridge -> London</a></p>
+
+<br> <br>
+<p3 style="font-size:6.5vw">V</p3>
+<p style="font-size:3vw"><a href="http://en.chateauversailles.fr/" target="_blank">&#8277; Versailles -> Paris </a></p>
+<p style="font-size:3vw"><a href="https://www.vam.ac.uk/" target="_blank">&#8277; Victoria and Albert Museum -> London</a></p>
+
+<br> <br>
+<p3 style="font-size:6.5vw">W</p3>
+<p style="font-size:3vw"><a href="https://www.westminster-abbey.org/visit-us/prices-entry-times" target="_blank">&#8277; Westminster Abbey -> London</a></p>
+<br> <br>
+
+<br>
+<br>
+
+<div class="container">
+    <img id="myImg1" src="135.jpg" alt="" class="image1" style="width:100%">
+         
+</div>
+
+<br><br>
+
+<a1 id="food">
+<div class="container">
+    <img src="food222.jpg" alt="Food" class="image" style="width:100%">
+       <div class="centered">
+          <div class="text-block"><a href="#menu"><h3 style="font-family:papyrus; font-size:3vw;">Food</h3></a></div>
+       </div>   
+</div> 
+</a1>
+
+<br>
+<br>
+
+<p2> On a trip. also very important is <strong>FOOD</strong>. Once you eat a great breakfast, you can enjoy the places you want to visit. 
+As for lunch, it's the perfect opportunity to try their traditional food... at least once in a lifetime ;) (because sometimes it's expensive). That's why,
+from my own experience I used to try something new a few times, and then eat from supermarkets or fast-food.
+</p2>
+
+<h2 style="font-family:courier">TIPS:</h2>
+
+<p2>
+<strong> &#8284; Always search for a supermarket or a mall near you. </strong>
+</p2>
+<br>
+<p2>
+<strong> &#8284; If you consider that the following day will be full, you should not leave the hotel room without water and something sweet. </strong>
+</p2>
+<br>
+<br>
+<p2>It's obvios that every country has their traditional food and it would be awesome if we could taste everything.
+ Below you can find one of my favourites:</p2>
+<br>
+<br>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="t1.jpg">
+    <div class="container">
+      <img src="t1.jpg" alt="Second one" class="image" style="width:100%">
+          
+    </div>
+    </a>
+    <div class="desc"><h2>Balik Ekmek </h2></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="t2.jpg">
+    <div class="container">
+      <img src="t2.jpg" alt="Second one" class="image" style="width:100%">
+          
+    </div>
+    </a>
+    <div class="desc"><h2>Turkish Baclava</h2></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="t3.jpg">
+    <div class="container">
+      <img src="t3.jpg" alt="Second one" class="image" style="width:100%">
+          
+    </div>
+    </a>
+    <div class="desc"><h2>Taksim Ice cream</h2></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="u1.jpg">
+    <div class="container">
+      <img src="u1.jpg" alt="Second one" class="image" style="width:100%">
+          
+    </div>
+    </a>
+    <div class="desc"><h2>Gulaș</h2></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="p1.jpg">
+    <div class="container">
+      <img src="p1.jpg" alt="Second one" class="image" style="width:100%">
+          
+    </div>
+    </a>
+    <div class="desc"><h2>Pierogi</h2></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="r1.jpg">
+    <div class="container">
+      <img src="r1.jpg" alt="Second one" class="image" style="width:100%">
+          
+    </div>
+    </a>
+    <div class="desc"><h2>Mămăligă</h2></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="m1.jpg">
+    <div class="container">
+      <img src="m1.jpg" alt="Second one" class="image" style="width:100%">
+          
+    </div>
+    </a>
+    <div class="desc"><h2>Macedonian Pizza</h2></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="f1.jpg">
+    <div class="container">
+      <img src="f1.jpg" alt="Second one" class="image" style="width:100%">
+          
+    </div>
+    </a>
+    <div class="desc"><h2>French Croissant</h2></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="e1.jpg">
+    <div class="container">
+      <img src="e1.jpg" alt="Second one" class="image" style="width:100%">
+          
+    </div>
+    </a>
+    <div class="desc"><h2>English Tea</h2></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="a1.jpg">
+    <div class="container">
+      <img src="a1.jpg" alt="Second one" class="image" style="width:100%">
+          
+    </div>
+    </a>
+    <div class="desc"><h2>Wiener Schnitzel</h2></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="f2.jpg">
+    <div class="container">
+      <img src="f2.jpg" alt="Second one" class="image" style="width:100%">
+          
+    </div>
+    </a>
+    <div class="desc"><h2>French Eclairs</h2></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="e2.jpg">
+    <div class="container">
+      <img src="e2.jpg" alt="Second one" class="image" style="width:100%">
+          
+    </div>
+    </a>
+    <div class="desc"><h2>English Breakfast</h2></div>
+  </div>
+</div>
+
+<br><br>
+<div class="container">
+    <img id="myImg1" src="135.jpg" alt="" class="image1" style="width:100%">
+         
+</div>
+
+<br><br>
+
+<a1 id="hotel">
+<div class="container">
+    <img src="home222.jpg" alt="Hotel" class="image" style="width:100%">
+       <div class="centered">
+          <div class="text-block"><a href="#menu"><h3 style="font-family:papyrus; font-size:3vw;">Hotel</h3></a></div>
+       </div>   
+</div> 
+</a1>
+<br><br>
+<p2>To fully enjoy your trip, rest it crucial! </p2>
+<br>
+<p2>An ideal hotel means good location, low price, breakfast included, a lot of facilities and good reviews also.
+I, personally, choose first after location: either in central zone, either near metro or bus station.
+From my own experience, you can't always trust the reviews, that's why the location is the most accurate. </p2>
+<br>
+<p2>And considering the money, I choose to pay less for a hotel (decent, please), because I believe you only stay the nights in the hotel, 
+when you're supposed to sleep. </p2>
+
+<br> <br>
+<div class="container">
+    <img id="myImg1" src="travel2.jpg" alt="" class="image1" style="width:100%">   
+</div>
+
+<br>
+
+<p2 > &#10071;  &#10071; Some of the hotels I've tried and felt great according to the characteristics mentioned before: </p2>
+<br>
+<div class="container">
+  
+<p style="font-size:3vw">&#8277; <a href="http://www.booking.com/Share-bZ7t92" target="_blank">Budapest Apartment</a></p>
+<p style="font-size:3vw">&#8277; <a href="http://www.booking.com/Share-n084zC" target="_blank">London Hotel</a></p>
+<p style="font-size:3vw">&#8277; <a href="http://www.booking.com/Share-XcPJIW" target="_blank">Paris Hotel</a></p>
+<p style="font-size:3vw">&#8277; <a href="http://www.booking.com/Share-XeuiwQt" target="_blank">Istanbul Hotel</a></p>
+<p style="font-size:3vw">&#8277; <a href="http://www.booking.com/Share-T1liYi" target="_blank">Skopje Apartment</a></p>
+<p style="font-size:3vw">&#8277; <a href="http://www.booking.com/Share-o4pjaU" target="_blank">Krakow Hotel</a></p>
+<p style="font-size:3vw">&#8277; <a href="http://www.booking.com/Share-KJ3fsVH" target="_blank">Bucharest Apartment</a></p>
+
+</div>
+
+<br> <br>
+<div class="container">
+    <img id="myImg1" src="135.jpg" alt="" class="image1" style="width:100%">
+         
+</div>
+
+<br><br>
+
+<a1 id="transport">
+<div class="container">
+    <img src="tr122.jpg" alt="Transport" class="image" style="width:100%">
+       <div class="centered">
+          <div class="text-block"><a href="#menu"><h3 style="font-family:papyrus; font-size:3vw;">Transport</h3></a></div>
+       </div>   
+</div>  
+</a1>
+<br>
+<p1>The easiest and best way to fall in love with the city is to take their bus or metro. You get to be one of them... what could you ask more? 
+That's why it's important to find the best route at the most convenient price and from all of my trips I've taken, I learned that one-way tickets are not 
+effective at all. Even though you may think you don't need more tickets, you never know when you'll get in a hurry or if you get on the wrong bus.. so trust me, 
+travel cards are the best!
+</p1>
+<style>
+div.c {
+  text-align: right;
+  margin-right:150px;
+}
+</style>
+
+<style>
+div.s {
+  text-align: left;
+  margin-left:150px;
+}
+</style>
+
+<h2 style="font-family:courier; text-align:left;">TIPS:</h2>
+
+<p2>
+<strong> &#8284; Download offline maps before your trip. You never know when you run out of internet or signal on the phone. </strong>
+</p2>
+<br>
+<p2>
+<strong> &#8284; For metro, it's very good to have a map with all of the routes.</strong>
+</p2>
+<br>
+<p2>
+<strong> &#8284; Even though metro seems the fastest way, use also the bus and if you have plenty of time,
+visit the city while taking the bus from one end to the other.</strong>
+</p2>
+<br>
+<p2>
+<strong> &#8284; To find the best prices for flight tickets, you should book them 6 weeks in advance.
+</strong></p2>
+<br>
+<p2>
+<strong> &#8284; If you want to make your trip more interesting, you should take the train or the bus between 2 close countries.
+For example, between London and Paris there are two ways: 2.5 hours with the train under the Channel Tunnel
+or with the bus (I like a lot FlixBus). The last one makes you feel like you're on the Titanic (because you'll also take the ferry). 
+</strong></p2>
+<br>
+<p2><strong>
+&#8284; Buy airline tickets directly from their official websites.
+</strong>
+</p2>
+<br>
+<br>
+<div class="s"><p2 style="font-size:3vw">&#8277; <a href="https://www.istanbulkart.istanbul/" target="_blank">Istanbul Card</a></p2></div>
+<div class="c"><p2 style="font-size:3vw">&#8277; <a href="https://www.londonpass.com/london-transport/" target="_blank">London Card</a></p2> <br></div>
+<div class="s"><p2 style="font-size:3vw">&#8277; <a href="https://www.ratp.fr/en/titres-et-tarifs" target="_blank">Paris Card</a></p2></div>
+<div class="c"><p2 style="font-size:3vw">&#8277; <a href="https://bkk.hu/en/tickets-and-passes/prices/" target="_blank">Budapest Card</a></p2><br></div>
+<div class="s"><p2 style="font-size:3vw">&#8277; <a href="https://homepage.univie.ac.at/horst.prillinger/ubahn/english/fares.html" target="_blank">Wien Card</a></p2></div>
+<div class="c"><p2 style="font-size:3vw">&#8277; <a href="http://www.sas.com.mk/en/">Skopje Card</a></p2> <br> </div>
+<div class="s"><p2 style="font-size:3vw">&#8277; <a href="https://www.flixbus.ro/" target="_blank">FlixBus</a></p2></div>
+<div class="c"><p2 style="font-size:3vw">&#8277; <a href="https://www.eurostar.com/rw-en" target="_blank">Eurostar Trains</a></p2></div>
+
+<br><br>
+
+
+</body>
+</html>

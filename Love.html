@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<title>Love</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+#myImg {
+  width:55px;
+  height:26px;
+ 
+}
+</style>
+
+<style>
+        @charset "utf-8";
+ 
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+
+
+body 
+{
+  /* Location of the image */
+  background-image: url(lovee4.jpg);
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header
+{
+    width:960px;
+    font-size:35px;
+    text-align:center;
+    background-color:#222;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    color:white;    
+}
+footer
+{
+    height: 40px;
+    font-size:35px;
+    color:white;
+    text-align:center;
+    background-color:#222;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    clear:both;  
+}
+
+
+#container
+{
+    max-width:960px;
+    margin-left:auto;
+    margin-right:auto;
+    background: url(love82.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    border-radius:10px;  
+    
+}
+
+#content
+{
+    max-width:960px;
+    margin-left:auto;
+    margin-right:auto;  
+}
+
+#content ul
+{
+    list-style-type:none;
+}
+
+#content li
+{
+    float:left;
+    max-width:175px;
+    margin-right:35px;
+    margin-bottom:50px; 
+    display: block;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden; 
+}
+img{
+    width:200px;
+    height:150px;
+}
+
+</style>
+
+
+<style>
+p.ex1 {
+  margin: 35px;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a1 {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 22px;
+  text-decoration: none;
+  font-size: 4px;
+}
+
+.topnav a:hover {
+  background-color: #000;
+  
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.navbar logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+  
+}
+
+</style>
+
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 992px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+  background: url(love82.jpg); 
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+      width:100%;
+  }
+  background: url(love822.jpg); 
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
+<style>
+div.a {
+  text-align: center;
+}
+</style>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: powderblue;
+  color: white;
+  font-size: 15px;
+  padding: 23px 32px;
+}
+</style>
+
+
+<body>
+
+<style>
+div.a {
+  font-size: 15px;
+  font-family:courier;
+}
+</style>
+
+
+
+<div class="topnav">
+  
+  <a><img id="myImg" src="logo1.png" alt=""/></a>
+     <a href="index.html" style="font-size:1.9vw;"><i class="fa fa-fw fa-home"></i> Home </a>
+     <a href="CookRo.html" style="font-size:1.9vw;"><i class="fa fa-birthday-cake"></i> Cook</a>
+     <a href="TravelRo.html" style="font-size:1.9vw;"><i class="fa fa-heartbeat"></i> Travel </a>
+     <a class="active" href="#" style="font-size:1.9vw;"><i class="fa fa-globe"></i> Love</a> 
+     <a href="HelpRo.html" style="font-size:1.9vw;"><i class="fa fa-map-signs"></i> Help </a> 
+     <a href="ContactRo.html"style="font-size:1.9vw;"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+     <div class="topnav-right"> <div class="a">
+        <a class="active" href="Love.html" style="font-size:1.5vw;"><i class="fa fa-flag"></i> En </a>
+        <a href="LoveRo.html" style="font-size:1.5vw;"><i class="fa fa-flag"></i> Ro </a>
+       </div></div>
+  
+</div>
+
+<style>
+h1 {
+  text-shadow: 2px 2px 5px black;
+  color: white;
+  font-size: 25px;
+  padding: 23px 32px;
+}
+</style>
+
+<div class="a">
+<p style="font-size:53px">&#11088;</p>
+<h1 style="font-family:courier; font-size:5vw;">&#10084 Love gallery &#10084</h1>
+<p style="font-size:53px">&#11088;</p>
+</div>
+
+
+<div id="container">
+ <footer></footer>
+ <div id="content">
+ <ul>
+
+  <li><a href="bombo1.jpg" rel="group" class="fancybox"><img src="bombo1.jpg" /></a></li>
+                
+  <li><a href="bruno.jpg" rel="group" class="fancybox"><img src="bruno.jpg" /></a></li>
+                
+  <li><a href="color.jpg" rel="group" class="fancybox"><img src="color.jpg" /></a></li>
+               
+  <li><a href="frog.jpg" rel="group" class="fancybox"><img src="frog.jpg" /></a></li>
+               
+  <li><a href="fum.jpg" rel="group" class="fancybox"><img src="fum.jpg" /></a></li>
+               
+  <li><a href="heart.jpg" rel="group" class="fancybox"><img src="heart.jpg" /></a></li>
+               
+  <li><a href="iepuri.jpg" rel="group" class="fancybox"><img src="iepuri.jpg" /></a></li>
+                
+  <li><a href="jerry.jpg" rel="group" class="fancybox"><img src="jerry.jpg" /></a></li>
+                
+  <li><a href="lebada.jpg" rel="group" class="fancybox"><img src="lebada.jpg" /></a></li>
+                
+  <li><a href="little.jpg" rel="group" class="fancybox"><img src="little.jpg" /></a></li>
+               
+  <li><a href="luna.jpg" rel="group" class="fancybox"><img src="luna.jpg" /></a></li>
+               
+   <li><a href="mountain.jpg" rel="group" class="fancybox"><img src="mountain.jpg" /></a></li>
+                
+  <li><a href="ri.jpeg" rel="group" class="fancybox"><img src="ri.jpeg" /></a></li>
+                
+  <li><a href="toamna.jpg" rel="group" class="fancybox"><img src="toamna.jpg" /></a></li>
+                
+  <li><a href="tren.jpg" rel="group" class="fancybox"><img src="tren.jpg" /></a></li>
+  </ul>
+  </div>
+  <footer></footer>
+</div> 
+
+
+
+</body>
+</html>

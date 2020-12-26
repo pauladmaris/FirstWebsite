@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+#myImg {
+  width:55px;
+  height:26px;
+ 
+}
+</style>
+
+<style>
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+video {
+  width: 55%;
+  height: auto;
+}
+
+
+p.ex1 {
+  margin: 35px;
+}
+
+body 
+{
+  /* Location of the image */
+  background-image: url(main34.jpg);
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #000;
+  
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.navbar logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+  
+}
+
+
+</style>
+
+
+<body>
+
+<style>
+div.a {
+  font-size: 15px;
+  font-family:courier;
+}
+</style>
+
+<div class="topnav">
+  
+  <a><img id="myImg" src="logo1.png" alt=""/></a>
+     <a class="active" href="Menu.html" style="font-size:1.9vw;"><i class="fa fa-fw fa-home"></i> Home </a>
+     <a href="CookRo.html" style="font-size:1.9vw;"><i class="fa fa-birthday-cake"></i> Cook</a>
+     <a href="TravelRo.html" style="font-size:1.9vw;"><i class="fa fa-heartbeat"></i> Travel </a>
+     <a href="LoveRo.html" style="font-size:1.9vw;"><i class="fa fa-globe"></i> Love</a> 
+     <a href="HelpRo.html" style="font-size:1.9vw;"><i class="fa fa-map-signs"></i> Help </a> 
+     <a href="ContactRo.html"style="font-size:1.9vw;"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+     <div class="topnav-right"> <div class="a">
+        <a class="active" href="Menu.html" style="font-size:1.5vw;"><i class="fa fa-flag"></i> En </a>
+        <a href="index.html" style="font-size:1.5vw;"><i class="fa fa-flag"></i> Ro </a>
+        </div></div>
+  
+</div>
+
+<style>
+h2 {
+  text-shadow: 2px 2px 5px black;
+  color: white;
+  font-size:26px;
+  font-family: "Apple Chancery";
+  text-aling:left;
+  margin-left: 30px;
+  margin-right:55px;
+}
+</style>
+
+<style>
+h1 {
+  text-shadow: 2px 2px 5px black;
+  color: white;
+}
+</style>
+
+<h1>
+
+<p id="demo" controls autoplay loop></p>
+
+<script>
+var i = 0;
+var txt = 'Hi there! Glad to see you here... :) ';
+var speed = 100;
+var myVar = setInterval(typeWriter, 800);
+function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("demo").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  
+}
+</script>
+</h1>
+
+<!-- 1263 si 476 -->
+<video class="center" id="video" width="600"  controls autoplay loop muted>
+  <source src="mainVideo1.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<br>
+
+<h2 style="font-style:3.5vw;"> L'aurita is a project that connects people. It isn't a professional 
+website where you can find unique things, no, it's just a place where you
+can feel like <strong> HOME </strong>. </h2>
+
+<h2 style="font-style:3.5vw;"> Everything has a beginning and every story must be told. There is 
+no bad thing to help others, to give advices or to develop yourself. 
+Don't forget, we are here to learn new things and to share our experiences. ;)
+</h2>
+<br>
+
+
+</body>
+</html> 
